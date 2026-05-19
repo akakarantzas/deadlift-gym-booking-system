@@ -1,0 +1,241 @@
+{
+  "counters": {
+    "user": 7,
+    "session": 12,
+    "booking": 5
+  },
+  "users": {
+    "U001": {
+      "user_id": "U001",
+      "username": "admin",
+      "password": "admin123",
+      "name": "Administrator",
+      "email": "admin@deadlift.gr",
+      "role": "admin",
+      "reset_token": null,
+      "reset_token_expiry": null
+    },
+    "U002": {
+      "user_id": "U002",
+      "username": "john_d",
+      "password": "hunter99",
+      "name": "John Doe",
+      "email": "john@email.com",
+      "role": "user",
+      "reset_token": null,
+      "reset_token_expiry": null
+    },
+    "U003": {
+      "user_id": "U003",
+      "username": "e_hoxha",
+      "password": "pass123",
+      "name": "Erina Hoxha",
+      "email": "e.hoxha@email.com",
+      "role": "user",
+      "reset_token": null,
+      "reset_token_expiry": null
+    },
+    "U004": {
+      "user_id": "U004",
+      "username": "e_vagianou",
+      "password": "pass123",
+      "name": "Evgenia Vagianou",
+      "email": "e.vagianou@email.com",
+      "role": "user",
+      "reset_token": null,
+      "reset_token_expiry": null
+    },
+    "U005": {
+      "user_id": "U005",
+      "username": "a_markopoulos",
+      "password": "pass123",
+      "name": "Angelos Markopoulos",
+      "email": "a.markopoulos@email.com",
+      "role": "user",
+      "reset_token": null,
+      "reset_token_expiry": null
+    },
+    "U006": {
+      "user_id": "U006",
+      "username": "test_user",
+      "password": "pw",
+      "name": "Test User",
+      "email": "test@email.com",
+      "role": "user",
+      "reset_token": null,
+      "reset_token_expiry": null
+    }
+  },
+  "sessions": {
+    "S001": {
+      "session_id": "S001",
+      "group_type": "Pilates",
+      "trainer": "Coach Elena",
+      "date": "2026-04-08",
+      "time": "09:00",
+      "capacity": 10,
+      "duration": 60,
+      "status": "active",
+      "booked_users": [
+        "U002"
+      ]
+    },
+    "S002": {
+      "session_id": "S002",
+      "group_type": "Yoga",
+      "trainer": "Coach Maria",
+      "date": "2026-04-08",
+      "time": "11:00",
+      "capacity": 15,
+      "duration": 60,
+      "status": "active",
+      "booked_users": [
+        "U002"
+      ]
+    },
+    "S003": {
+      "session_id": "S003",
+      "group_type": "CrossFit",
+      "trainer": "Coach Alex",
+      "date": "2026-04-09",
+      "time": "10:00",
+      "capacity": 8,
+      "duration": 45,
+      "status": "cancelled",
+      "booked_users": []
+    },
+    "S004": {
+      "session_id": "S004",
+      "group_type": "Pilates",
+      "trainer": "Coach Elena",
+      "date": "2026-04-09",
+      "time": "17:00",
+      "capacity": 10,
+      "duration": 60,
+      "status": "active",
+      "booked_users": [
+        "U003"
+      ]
+    },
+    "S005": {
+      "session_id": "S005",
+      "group_type": "Yoga",
+      "trainer": "Coach Maria",
+      "date": "2026-04-10",
+      "time": "09:00",
+      "capacity": 15,
+      "duration": 60,
+      "status": "active",
+      "booked_users": []
+    },
+    "S006": {
+      "session_id": "S006",
+      "group_type": "Spinning",
+      "trainer": "Coach Nikos",
+      "date": "2026-04-10",
+      "time": "18:00",
+      "capacity": 12,
+      "duration": 45,
+      "status": "active",
+      "booked_users": [
+        "EXT00",
+        "EXT01",
+        "EXT02",
+        "EXT03",
+        "EXT04",
+        "EXT05",
+        "EXT06",
+        "EXT07",
+        "EXT08",
+        "EXT09",
+        "EXT10",
+        "EXT11"
+      ]
+    },
+    "S007": {
+      "session_id": "S007",
+      "group_type": "Pilates",
+      "trainer": "Coach Elena",
+      "date": "2026-04-11",
+      "time": "09:00",
+      "capacity": 10,
+      "duration": 60,
+      "status": "active",
+      "booked_users": []
+    },
+    "S008": {
+      "session_id": "S008",
+      "group_type": "CrossFit",
+      "trainer": "Coach Alex",
+      "date": "2026-04-11",
+      "time": "17:00",
+      "capacity": 8,
+      "duration": 45,
+      "status": "active",
+      "booked_users": []
+    },
+    "S009": {
+      "session_id": "S009",
+      "group_type": "Yoga",
+      "trainer": "Coach Maria",
+      "date": "2026-04-12",
+      "time": "11:00",
+      "capacity": 15,
+      "duration": 60,
+      "status": "active",
+      "booked_users": []
+    },
+    "S010": {
+      "session_id": "S010",
+      "group_type": "Spinning",
+      "trainer": "Coach Nikos",
+      "date": "2026-04-12",
+      "time": "18:00",
+      "capacity": 12,
+      "duration": 45,
+      "status": "active",
+      "booked_users": []
+    },
+    "S011": {
+      "session_id": "S011",
+      "group_type": "Zumba",
+      "trainer": "Coach Dimitra",
+      "date": "2026-04-15",
+      "time": "18:00",
+      "capacity": 20,
+      "duration": 60,
+      "status": "cancelled",
+      "booked_users": []
+    }
+  },
+  "bookings": {
+    "B001": {
+      "booking_id": "B001",
+      "user_id": "U002",
+      "session_id": "S001",
+      "booked_at": "2026-04-07 08:00",
+      "status": "confirmed"
+    },
+    "B002": {
+      "booking_id": "B002",
+      "user_id": "U002",
+      "session_id": "S002",
+      "booked_at": "2026-04-07 08:00",
+      "status": "confirmed"
+    },
+    "B003": {
+      "booking_id": "B003",
+      "user_id": "U003",
+      "session_id": "S004",
+      "booked_at": "2026-04-07 09:00",
+      "status": "confirmed"
+    },
+    "B004": {
+      "booking_id": "B004",
+      "user_id": "U002",
+      "session_id": "S007",
+      "booked_at": "2026-04-07 00:14",
+      "status": "cancelled"
+    }
+  }
+}
