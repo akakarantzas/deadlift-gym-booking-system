@@ -2,6 +2,10 @@
 
 Deadlift is a Python console application for managing gym class bookings. Members can browse sessions, book classes, cancel bookings, and reschedule. Admins can manage sessions, users, and booking records.
 
+<p align="center">
+  <img src="./src/deadlift_logo.png" alt="Terrasset Hero Banner" width="100%">
+</p>
+
 ## Features
 
 - Browse and filter gym sessions
