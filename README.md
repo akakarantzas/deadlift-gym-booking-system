@@ -14,6 +14,10 @@ Deadlift is a Python console application for managing gym class bookings. Member
 - Manage users and sessions as an admin
 - Save data locally in `gym_data.json`
 
+<p align="center">
+  <img src="./src/deadlift_menu.png" alt="Deadlift main menu" width="100%">
+</p>
+
 ## Requirements
 
 - Python 3.8+
